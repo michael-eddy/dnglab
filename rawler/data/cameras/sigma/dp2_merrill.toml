@@ -1,0 +1,12 @@
+make = "SIGMA"
+model = "SIGMA DP2 Merrill"
+clean_make = "Sigma"
+clean_model = "DP2 Merrill"
+
+blackpoint = 31
+whitepoint = 4095
+real_bps = 12
+crop_area = [12, 0, 109, 59]
+
+[cameras.color_matrix]
+D65 = [0.5133, -0.1895, -0.0353, 0.4978, 0.0744, 0.0144, 0.3837, 0.3069, 0.2777]
